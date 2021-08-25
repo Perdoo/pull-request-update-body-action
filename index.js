@@ -17,7 +17,7 @@ async function run() {
         });
 
         if (pullRequest.body) {
-            body += `\n\n${pullRequest.body}`;
+            body += `\n${pullRequest.body}`;
         }
     }
 
