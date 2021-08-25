@@ -1,6 +1,6 @@
 # Pull Request Update Body Action
 
-Prepend to or override a pull request's body.
+Append to or override a pull request's body.
 
 ## Inputs
 

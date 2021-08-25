@@ -1,5 +1,5 @@
 name: Pull Request Update Body Action
-description: Prepend to or override a pull request's body
+description: Append to or override a pull request's body
 branding:
   icon: award
   color: red
@@ -8,7 +8,7 @@ inputs:
     description: GitHub token
     required: true
   body:
-    description: Text to be prepended to the body
+    description: Text to be added to the body
     required: true
   override:
     description: Should the body get overriden
