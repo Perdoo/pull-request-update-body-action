@@ -11,7 +11,7 @@ inputs:
     description: Text to be prepended to the body
     required: true
   override:
-    description: Should the body be overriden
+    description: Should the body get overriden
     required: false
 runs:
   using: "node12"
