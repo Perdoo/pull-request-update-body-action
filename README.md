@@ -26,7 +26,7 @@ on:
     types: [opened]
 ...
 
-uses: Perdoo/pull-request-update-body-action@v1.0.0
+uses: Perdoo/pull-request-update-body-action@v1.0.1
 with:
   ghToken: ${{ secrets.GITHUB_TOKEN }}
   body: "Hello World!"
